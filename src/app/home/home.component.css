@@ -1,0 +1,182 @@
+.header {
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+    height: 1.5cm;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+mat-drawer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidenav {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1.5cm;
+    height: 100vh;
+    border-right: 1px solid #d9d9d9;
+}
+
+.mat {
+    width: 100%;
+    background: none;
+    height: 1cm;
+    border: none;
+}
+
+.mats {
+    width: 100%;
+    background: none;
+    height: 1cm;
+    border: none;
+}
+
+.material-icons {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #a6a6a6;
+}
+
+.material-icons:hover {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #46B1EF;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    margin-top: 1.5%;
+}
+
+.search {
+    border: none;
+    padding-left: 0;
+    margin-top: 3%;
+}
+
+.search:focus {
+    border: none;
+    box-shadow: none;
+    margin-top: 3%;
+}
+
+.notification {
+    background: none;
+    border: none;
+    margin-top: 0.8%;
+}
+
+.table {
+    width: 90%;
+    margin-left: 5%
+}
+
+thead {
+    width: 100%;
+}
+
+tbody {
+    width: 100%;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.toggle {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 70%;
+    border: none;
+    text-align: center;
+}
+
+.toggleButton {
+    width: 33%;
+    text-align: center;
+    border: none;  
+}
+
+.toggleButton:hover {
+    width: 33%;
+    text-align: center;
+    border: none;
+    background-color: #46B1EF;
+    color: white;
+}
+
+.table1 {
+    margin-top: 2%;
+    margin-left: -5.5%;
+}
+
+h3 {
+    left: 10%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+
+a {
+    font-size: small;
+}
+
+.dates {
+    text-align: right;
+    padding-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a6a6a6
+}
+
+.addButton {
+    margin-top: 13%;
+    width: 50%;
+    height: 1cm;
+    border: 2px dashed #46B1EF;
+    border-radius: 0.5cm;
+    text-align: right;
+    background: none;
+    padding-right: 10%;
+    color: #666666;
+}
+
+.addButton:focus {
+    margin-top: 13%;
+    width: 50%;
+    height: 1cm;
+    border: 2px dashed #666666;
+    border-radius: 0.5cm;
+    text-align: right;
+    background: none;
+    padding-right: 10%;
+    color: #666666;
+    outline: none;
+}
+
+.add {
+    color: #666666;
+    padding-right: 10%;
+    padding-top: 8%;
+}
+
+.adButton {
+    margin-top: 2%;
+}
+
+.bodies {
+    position: absolute;
+    top: 1.5cm;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.more{
+    padding-top: 2%;
+}

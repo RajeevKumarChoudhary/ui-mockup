@@ -1,0 +1,80 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-11 heading">
+      <h5>ADD YOUR BILLS</h5>
+      <p>Submit Your Extra Expenses/Bills for Reimbersement</p>
+    </div>
+    <div class="col-sm-1"><button class="clear" (click)="clear()"><i style="color:#46B1EF"
+          class="material-icons">clear</i></button></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-3">
+      <label class="label">Bill Name</label>
+    </div>
+    <div class="col-sm-6">
+      <input class="form-control" type="text" placeholder="Team Lunch at Starbucks">
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-3">
+      <label class="label">Paid Type</label>
+    </div>
+    <div class="col-sm-6">
+      <select class="form-control">
+        <option>Cash</option>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+        <option>Wallet</option>
+      </select>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-3">
+      <label class="label">Amount(₹)</label>
+    </div>
+    <div class="col-sm-6">
+      <input class="form-control" type="number" placeholder="3390.47">
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-3">
+      <label class="label">Date of Bill</label>
+    </div>
+    <div class="col-sm-6">
+      <input class="form-control" placeholder="YYYY-MM-DD" (click)="d.toggle()" type="text" ngbDatepicker
+        placement="bottom" #d="ngbDatepicker" />
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <br />
+
+  <div class="row">
+    <div class="col-sm-3">
+      <label class="label">Attach Your Bill</label>
+    </div>
+    <div class="col-sm-6">
+      <file-drop dropZoneLabel=""></file-drop>
+      <br />
+      <input style="margin-top: -85px; margin-left: 20px; color: #666666" type="file" class="form-control-file files">
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+  <br />
+  <div style="margin-top: 100px" class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-2">
+      <button class="cancel" (click)="cancel()">CANCEL</button>
+    </div>
+    <div class="col-sm-2">
+      <button class="save" (click)="save()">SAVE</button>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>

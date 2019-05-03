@@ -1,0 +1,55 @@
+.heading {
+    text-align: center;
+    padding-left: 15%;
+}
+
+.clear {
+    background: none;
+    border: none;
+}
+
+.clear:focus {
+    outline: none;
+}
+
+.label {
+    text-align: center;
+}
+
+.cancel {
+    background: none;
+    border: none;
+    height: 1cm;
+    width: 100%;
+}
+
+.cancel:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.save {
+    background: none;
+    border: 1px solid #46B1EF;
+    height: 0.8cm;
+    border-radius: 15px;
+    width: 130%;
+}
+
+.save:focus {
+    background: none;
+    border: 1px solid #a6a6a6;
+    height: 1cm;
+    border-radius: 0.5cm;
+    width: 100%;
+    outline: none;
+}
+
+.files{
+    background: none;
+    border: none;
+}
+
+
+
